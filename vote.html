@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="vote.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Vote for Your Favorite Fruit</h2>
+        <form method="post" action="vote.php">
+            <label for="fruit">Select your favorite fruit:</label>
+            <select name="fruit" id="fruit">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="cherry">Cherry</option>
+            </select>
+            <button type="submit" class="vote-button">Vote</button>
+        </form>
+        <a href="logout.php" class="logout-link">Logout</a>
+    </div>
+</body>
+</html>
